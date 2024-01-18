@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    *:focus {
+      outline: none;
+    }
+    body {
+    font-family: Arial;
+    background-color: #020510;
+    padding: 30px;
+    }
+
+    .logo {
+        padding: 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+  
+      .rectangle {
+        display: flex;
+        align-items: center;
+        height: 35px;
+        width: 100px;
+        background-color: #8b8b8b50;
+        border-radius: 10px;
+      }
+
+      .rectangle_login{
+        height: 35px;
+        width: 100px;
+        background-color: #FF2C78;
+        border-radius: 10px;
+        margin-left: 1000px;
+        color: #fff;
+        font-size: 20px;
+        padding-top: 7px;
+        padding-left: 12px;
+      }
+
+      .rectangle_login:hover{
+        background-color: aqua;
+      }
+  
+      .country {
+        margin-left: 15px;
+        display: flex;
+        align-content: center;
+      }
+
+      .rectangle_center {
+        display: flex;
+        align-items: flex-start;
+        height: 900px;
+        width: 1365px;
+        background-color: #0A031C;
+        border-radius: 10px;
+        color: #fff;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 30px 25px;
+        font-size: 40px;
+      }
+
+      .rectangle__lift{
+        transform: rotate(270deg);
+        color: #707070;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: -180px;
+      }
+
+      .rectangle__line{
+        height: 50px;
+        width: 2px;
+        background-color: #311D43;
+        margin-top: 55px;
+        margin-left: -185px;
+      }
+
+      .rectangle__lift__2{
+        height: 50px;
+        width: 50px;
+        background-color: #311D43;
+        margin-top: 55px;
+        margin-left: 20px;
+        color: rgb(160, 165, 160);
+        font-size: 15px;
+        border-radius: 5px;
+      }
+
+      .rectangle__lift__3{
+        font-size: 40px;
+        color: #ffffff;
+        margin-top: 63px;
+        margin-left: -45px;
+      }
+
+      .rectangle__lift__container {
+        width: 50px;
+        height: 50px;
+        border: 1px solid;
+        border-radius: 5px;
+        margin-top: 55px;
+        margin-left: 20px;
+        padding-top: 7px;
+        padding-left: 1px;
+        color: #311D43;
+        }
+
+        .logo__2{
+          margin-top: 150px;
+          margin-left: -730px;
+        }
+        
+        .text__2{
+          font-size: 20px;
+          display: flex;
+          flex-direction: row;
+          margin-top: 81px;
+          margin-left: 25px;
+          color: #fff;
+        }
+
+        .rectangle__line_2{
+          width: 1300px;
+          height: 200px;
+          border: 1px solid;
+          border-radius: 5px;
+          margin-top: 250px;
+          margin-left: -800px;
+          color: #311D43;
+        }
+
+        .rectangle__line_2 img{
+          transform: scale(0.8);
+          margin-top: -10px;
+        }
+
+        .rectangle__line_5{
+          margin-top: -30px;
+          margin-left: 25px;
+        }
+
+        .text__3{
+          font-size: 30px;
+          color: #fff;
+          margin-top: -90px;
+          margin-left: 100px;
+          display: flex;
+        }
+
+        .text__3:nth-child(1){
+          color: #ffffff;
+        }
+
+        .text__4{
+          color: #fff;
+          margin-left: 235px;
+          font-size: 20px;
+          margin-top: 10px;
+        }
+
+        .text__4:nth-child(1){
+          margin-top: -60px;
+          color: #707070;
+          font-size: 15px;
+        }
+
+        .text__5{
+          color: #fff;
+          margin-left: 300px;
+          font-size: 20px;
+          margin-top: 10px;
+        }
+
+        .text__6{
+          color: #fff;
+          margin-left: 365px;
+          font-size: 20px;
+          margin-top: 10px;
+        }
+
+        .text__7{
+          color: #fff;
+          margin-left: 435px;
+          font-size: 20px;
+          margin-top: 10px;
+        }
+
+        .text__8{
+          color: #fff;
+          margin-left: 505px;
+          font-size: 20px;
+          margin-top: 10px;
+        }
+
+        .rectangle__line_9{
+          margin-top: 500px;
+          margin-left: -1300px;
+          width: 1300px;
+          height: 200px;
+          border: 1px solid;
+          border-radius: 5px;
+          color: #311D43;
+        }
+
+        .rectangle__line_9 img{
+          transform: scale(0.8);
+          margin-top: -10px;
+        }

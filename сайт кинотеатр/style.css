@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    *:focus {
+      outline: none;
+    }
+    body {
+    font-family: Arial;
+    background-color: #020510;
+    padding: 30px;
+    }
+
+    .fon {
+      background-image: url(./img/background.png);
+      background-repeat: no-repeat;
+      border-radius: 9px;
+      padding: 50px;
+    }
+
+    .login {
+    background-size: cover;
+    margin: 20px auto;
+    width: 500px;
+    }
+
+    .login-screen {
+    backdrop-filter: blur(7px);
+    padding: 80px;
+    border-radius: 15px
+    }
+    
+    .app-title {
+    text-align: center;
+    color: #ffffff;
+    }
+    
+    .login-form {
+    text-align: center;
+    }
+    .control-group {
+    margin-bottom: 10px;
+    }
+    
+    input {
+    text-align: center;
+    background-color: #020510;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    color: #ffffff;
+    }
+
+    .background{
+        position: absolute;
+        z-index: 1;
+    }
+
+    
+    input:focus {
+    border: 2px solid #FF2C78;
+    box-shadow: none;
+    }
+    
+    .btn {
+      border: 2px solid transparent;
+      background: #FF2C78;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 8px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+    
+    .btn:hover {
+      background-color: #2980B9;
+    }
+    
+    .login-link {
+      font-size: 12px;
+      color: #727272;
+      display: block;
+      margin-top: 12px;
+    }
+
+    .logo {
+      padding: 5px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .rectangle {
+      display: flex;
+      align-items: center;
+      height: 35px;
+      width: 100px;
+      background-color: #8b8b8b50;
+      border-radius: 10px;
+    }
+
+    .country {
+      margin-left: 15px;
+      display: flex;
+      align-content: center;
+    }
